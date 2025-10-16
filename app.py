@@ -34,9 +34,9 @@ def bce_dice_loss(y_true, y_pred):
     bce = tf.keras.losses.BinaryCrossentropy()(y_true, y_pred)
     return bce + (1 - dice_coef(y_true, y_pred))
 
-# ---------------------------
+
 # load model (with fallback download)
-# ---------------------------
+
 MODEL_LOCAL = "oilspill_model.h5"
 
 @st.cache_resource
