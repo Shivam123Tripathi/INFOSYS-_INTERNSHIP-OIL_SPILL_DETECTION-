@@ -1,9 +1,5 @@
 🌊 Oil Spill Detection using Satellite Imagery  
-
-🧠 AI Powered Environmental Monitoring System  
-
 ---
-
 ## 🚀 Project Overview  
 
 Oil spills cause catastrophic damage to marine ecosystems, impacting biodiversity, fisheries, and coastal economies.  
