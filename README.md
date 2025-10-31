@@ -3,7 +3,7 @@
 ## 🚀 Project Overview  
 
 Oil spills cause catastrophic damage to marine ecosystems, impacting biodiversity, fisheries, and coastal economies.  
-This project aims to *detect and segment oil spills automatically from satellite imagery* using *Deep Learning* — specifically a *U-Net based Convolutional Neural Network (CNN)* architecture.  
+This project aims to *detect and segment oil spills automatically from satellite imagery* using *Deep Learning* specifically a *U-Net based Convolutional Neural Network (CNN)* architecture.  
 
 By leveraging AI and satellite data, this project demonstrates how modern technology can assist in *environmental surveillance and rapid disaster response*.  
 
@@ -12,7 +12,7 @@ By leveraging AI and satellite data, this project demonstrates how modern techno
 
 - Develop an automated system for oil spill detection from satellite images.  
 - Use deep learning-based *semantic segmentation* (U-Net) to highlight spill regions.  
-- Build an interactive *Streamlit web app* for real-time oil spill detection.  
+- Build an interactive *Streamlit web app* for real time oil spill detection.  
 - Visualize and analyze detection results with adjustable sensitivity.  
 
 ---
@@ -31,15 +31,15 @@ Each phase of the workflow is organized into modules and milestones:
 | *1* | Data Collection | Collected and structured satellite images (Kaggle Oil Spill Dataset, Sentinel-1 SAR, etc.) |
 | *2* | Data Preprocessing | Resized, normalized, and augmented images; applied speckle noise reduction filters |
 | *3* | Model Development | Implemented *U-Net* for segmentation and CNNs for classification |
-| *4* | Training & Evaluation | Trained with Dice Loss, Binary Cross-Entropy; evaluated via Accuracy, IoU, Dice Coefficient |
+| *4* | Training & Evaluation | Trained with Dice Loss, Binary Cross Entropy; evaluated via Accuracy, IoU, Dice Coefficient |
 | *5* | Visualization | Generated mask overlays and visual result summaries |
-| *6* | Deployment | Built a Streamlit-based web app for real-time inference and visualization |
+| *6* | Deployment | Built a Streamlit based web app for real-time inference and visualization |
 
 ---
 
 ## 🧠 Model Details  
 
-- *Architecture*: U-Net (Encoder–Decoder CNN for segmentation)  
+- *Architecture*: U-Net (Encoder Decoder CNN for segmentation)  
 - *Input Size*: 256×256 (RGB/HSI enhanced)  
 - *Framework*: TensorFlow / Keras  
 - *Loss Function*: Dice Loss + Binary Cross Entropy  
@@ -50,13 +50,13 @@ Each phase of the workflow is organized into modules and milestones:
 
 ## 💻 Streamlit Application  
 
-An intuitive *web-based interface* was built using Streamlit to make the system user-friendly and interactive.  
+An intuitive *web-based interface* was built using Streamlit to make the system user friendly and interactive.  
 
 *Features:*  
 - Upload satellite images (.jpg, .jpeg, .png)  
-- Real-time spill detection and segmentation  
+- Real time spill detection and segmentation  
 - Adjustable threshold (detection sensitivity) slider  
-- Side-by-side visualization: Original Image | Predicted Mask | Overlay  
+- Side by side visualization: Original Image | Predicted Mask | Overlay  
 
 *Sample Workflow:*  
 1. Upload satellite image  
@@ -78,7 +78,7 @@ An intuitive *web-based interface* was built using Streamlit to make the system 
 ## 🌍 Real-World Applications  
 
 - Maritime and environmental monitoring agencies  
-- Real-time oil spill surveillance and alert systems  
+- Real time oil spill surveillance and alert systems  
 - Coastal ecosystem management  
 - Integration with drones or live satellite feeds  
 - Extension to detect *plastic waste* or *algal blooms* in oceans  
@@ -88,7 +88,7 @@ An intuitive *web-based interface* was built using Streamlit to make the system 
 ## 🔮 Future Scope  
 
 - Integration with *hyperspectral* and *multispectral* satellite data for improved accuracy  
-- Real-time cloud deployment (AWS / GCP / Azure)  
+- Real time cloud deployment (AWS / GCP / Azure)  
 - Automated alert generation for detected spills  
 - Expansion to *multi-class environmental hazard detection*  
 
