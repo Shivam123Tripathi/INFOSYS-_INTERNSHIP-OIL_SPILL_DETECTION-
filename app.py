@@ -259,7 +259,7 @@ if uploaded_file is not None:
                     with open(mask_path, "rb") as f:
                         st.download_button("📥 Binary Mask", f, file_name="oilspill_mask.png", mime="image/png")
 
-        st.success("✅ Voila! Oil spill detection completed successfully! 🌟")
+        st.success("Voila! Oil spill detection completed successfully! ")
 
 # Footer
 st.markdown("---")
