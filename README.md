@@ -129,10 +129,10 @@ Copy code
 
 ## 👩‍💻 Author  
 
-*Shreya [Your Full Name]*  
+*Shivam Tripathi*  
 Deep Learning & Computer Vision Enthusiast  
-📧 [Your Email Here]  
-🌐 [Optional: LinkedIn / GitHub Profile]
+📧 s.shivamtripathi13@gmail.com  
+
 
 ---
 
